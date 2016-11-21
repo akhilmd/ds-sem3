@@ -1,17 +1,21 @@
-## Visualization of A* Path Finding in C
+# Visualization of A* Path Finding in C
 This application allows you to select an image(map) and generate a path between two points in that map.
 
 ### Prerequisites
 * C compiler (tested on gcc 5.4.0, Ubuntu 16.04)
 * [gtk+](https://www.gtk.org)
 
+### Screenshot
+![screenshot](https://raw.githubusercontent.com/akhilmd/ds-sem3/master/img/screenshots/as2.png)
+
 ### How to build
-Building for Ubuntu:
+###### Building for Ubuntu:
 ```sh 
 $ make clean
 $ make
 ```
-Running:
+
+###### Running:
 ```sh 
 $ ./start
 Enter Path to Map: ./img/map-kora-8.png
@@ -25,6 +29,3 @@ PLOTTING ROUTE
 ROUTE HAS BEEN FOUND IN GREEN
 $
 ```
-
-### Screenshot
-![screenshot](https://raw.githubusercontent.com/akhilmd/ds-sem3/master/img/screenshots/as2.png)
